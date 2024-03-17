@@ -6,15 +6,10 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Neural networks consist of simple input/output units called neurons (inspired by human brain neurons). These input/output units are interconnected and each connection has a weight associated with it. Neural networks are flexible and can be used for both classification and regression. In this article, we will see how neural networks can be applied to regression problems.
-
-Regression helps establish a relationship between a dependent variable and one or more independent variables. Regression models work well only when the regression equation is a good fit for the data. Most regression models will not fit the data perfectly. Although neural networks are complex and computationally expensive, they are flexible and can dynamically pick the best type of regression, and if that is not enough, hidden layers can be added to improve prediction.
-
 First import the libraries that we will use Import the dataset and check the types of the columns Now build your training and test set from the dataset Here we are making the neural network 2 hidden layers with 1 output and input layer and an activation layer as relu and with their nodes in them. Now we will fit our dataset and then predict the value.
 
 ## Neural Network Model
-
-![Screenshot 2024-02-21 140031](https://github.com/etjabajasphin/basic-nn-model/assets/151705853/b468976c-c7e3-49ff-b5a3-f2a066b3cfe7)
+![Screenshot 2024-03-17 204822](https://github.com/karuniya2005/basic-nn-model/assets/161425769/f4a8f76a-83d5-41d5-afc6-862efc8e1c70)
 
 ## DESIGN STEPS
 
@@ -91,20 +86,23 @@ ai_brain.predict(X_n1_1)
 
 ```
 ## Dataset Information
-![Screenshot 2024-02-21 141344](https://github.com/etjabajasphin/basic-nn-model/assets/151705853/6ec9fd30-2cdb-452a-b4c5-c6d5989ed869)
+![Screenshot 2024-03-17 204444](https://github.com/karuniya2005/basic-nn-model/assets/161425769/19cb2dbc-1537-4515-8018-131c7542cc46)
+
+![Screenshot 2024-03-17 204436](https://github.com/karuniya2005/basic-nn-model/assets/161425769/14ea89dc-c888-45b9-869a-f01c709a4dfc)
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-![Screenshot 2024-02-21 141255](https://github.com/etjabajasphin/basic-nn-model/assets/151705853/82360829-4326-412e-b549-3eeda78c092b)
+![Screenshot 2024-03-17 204500](https://github.com/karuniya2005/basic-nn-model/assets/161425769/76dcb462-6466-41dd-9328-02abc7350893)
+
 
 ### Test Data Root Mean Squared Error
-![Screenshot 2024-02-21 142334](https://github.com/etjabajasphin/basic-nn-model/assets/151705853/0068d0ed-c280-4cbf-ada0-e5ddf03e44a7)
+![Screenshot 2024-03-17 204507](https://github.com/karuniya2005/basic-nn-model/assets/161425769/97bf453f-b25f-468b-a273-22e0fe940958)
 
 
 ### New Sample Data Prediction
-![Screenshot 2024-02-21 142347](https://github.com/etjabajasphin/basic-nn-model/assets/151705853/29d51e6e-8282-4df1-a222-6a2dc0909294)
 
+![Screenshot 2024-03-17 204518](https://github.com/karuniya2005/basic-nn-model/assets/161425769/b9b7645a-db30-4f26-987f-d489fce34377)
 
 
 ## RESULT
